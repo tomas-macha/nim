@@ -1,38 +1,17 @@
-# create-svelte
+# Nim game
+Play the game of Nim for free at [https://game-nim.pages.dev/](https://game-nim.pages.dev/).
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Rules
+Nim is a mathematical game of strategy in which two players take turns removing objects from distinct heaps.
+- Player must take one or more objects.
+- Taken objects must be form the same heap.
+- The player who takes the last object loses the game.
+- Players take turns.
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Controls
+- Click on the heap as many times as you want to take objects from it.
+- To take 3 objects, click 3 times on the heap.
+- You can right-click or long touch on the heap to put object back when you make a mistake.
+- Right click can be used to take all objects as well.
+- If you want to change the heap, just click on another.
+- When you are done with removing objects, click on the button in the center to confirm.
