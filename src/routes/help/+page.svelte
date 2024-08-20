@@ -18,7 +18,7 @@
 		<ul>
 			<li>Click on the heap as many times as you want to take objects from it.</li>
 			<li>To take 3 objects, click 3 times on the heap.</li>
-			<li>You can right click or long touch on the heap to put object back when you make a mistake.</li>
+			<li>You can right-click or long touch on the heap to put object back when you make a mistake.</li>
 			<li>Right click can be used to take all objects as well.</li>
 			<li>If you want to change the heap, just click on another.</li>
 			<li>When you are done with removing objects, click on the button in the center to confirm.</li>
