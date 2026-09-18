@@ -9,7 +9,8 @@ export function play(heaps: number[]) {
 			}
 		}
 		const idx = Math.floor(Math.random() * heaps.length);
-		return [idx, 1];
+		const amt = Math.floor(Math.random() * Math.max(0, heaps[idx]-2))+1;
+		return [idx, amt];
 	} else if (twoPlus == 1) {
 		const idx = heaps.findIndex(heap => heap > 1);
 		return [idx, heaps[idx] - (heaps.length % 2)];
