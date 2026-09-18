@@ -32,9 +32,7 @@
 			else
 				selected = {heap, amount: heaps[heap].value}
 		} else {
-			console.log(selected.amount, delta)
 			selected.amount += delta
-			console.log(selected.amount, heaps[heap].value)
 			if (selected.amount > heaps[heap].value) selected.amount = 1
 			if (selected.amount < 1) selected.amount = heaps[heap].value
 		}
